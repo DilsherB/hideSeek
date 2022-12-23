@@ -11,7 +11,7 @@ const projects = [
   {
     id: 1,
     name: 'Multi-post Stories',
-    company: 'Gain+Glory',
+    company: 'Gain+Glory'
     description: 'This project was built for a multinational company. In it I applied E-commerce. User will be able to add the items in cart and on check out he can select payment method. He also can add delivery address.',
     featureImage: 'project1.svg',
     tools: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
@@ -73,7 +73,7 @@ const projects = [
 const myProjetcs = document.querySelector('#recentWorks');
 projects.forEach((project) => {
   const works = document.createElement('works');
-  works.innerHTML = `
+  works.innerHTML = 
   <section class="row d-flex justify-content-around">
     
         <div class="card my-3 py-3">
